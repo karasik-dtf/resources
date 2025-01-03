@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карасик | Мои ресурсы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: url('img/night-sky.jpg');
+            color: white;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .profile h1 {
+            margin: 10px 0 5px;
+            font-size: 1.8rem;
+        }
+
+        .profile p {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .link {
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 10px 0;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .link:hover {
+            transform: scale(1.05);
+        }
+
+        .link:nth-child(1) {
+            background: #c5dae8;
+            color: black;
+            font: bold;
+        }
+
+        .link:nth-child(2) {
+            background: #ef7429;
+            color: black;
+        }
+
+        @media (max-width: 600px) {
+            .profile h1 {
+                font-size: 1.5rem;
+            }
+
+            .profile p {
+                font-size: 0.9rem;
+            }
+
+            .link {
+                font-size: 0.9rem;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="img/avatar.jpg" alt="Карасик">
+        <h1>Карасик</h1>
+        <p>Добро пожаловать в мои ресурсы!</p>
+    </div>
+
+    <div class="links">
+        <a href="https://dtf.ru/u/754031-karasik/3186735-blog-karasika-gaidy-po-neirorp-i-vsyakoe-drugoe" class="link">DTF</a>
+        <a href="https://boosty.to/karasikfromdtf" class="link">Boosty</a>
+    </div>
+</body>
+</html>
